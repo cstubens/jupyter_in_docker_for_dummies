@@ -2,7 +2,10 @@ FROM python:3.8
 
 RUN apt-get upgrade -y
 RUN pip install --upgrade pip
-RUN pip install --upgrade jupyter
+RUN pip install --upgrade \
+	jupyter \
+	numpy \
+	matplotlib
 
 EXPOSE 8080
 VOLUME /notebooks
