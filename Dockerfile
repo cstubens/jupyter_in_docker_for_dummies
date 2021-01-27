@@ -5,7 +5,7 @@ RUN pip install --upgrade pip
 RUN pip install --upgrade jupyter
 
 EXPOSE 8080
-VOLUME /notebook
-WORKDIR /notebook
+VOLUME /notebooks
+WORKDIR /notebooks
 
 CMD jupyter notebook --allow-root --ip=0.0.0.0 --port=8080
