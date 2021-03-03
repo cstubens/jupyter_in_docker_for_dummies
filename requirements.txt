@@ -1,0 +1,7 @@
+ipycytoscape
+matplotlib
+numpy
+requests
+cbpro
+elasticsearch
+jupyter
