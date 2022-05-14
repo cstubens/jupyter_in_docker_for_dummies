@@ -5,5 +5,5 @@ Simple jupyter in docker.
 Usage:
 
 ```
-docker-compose up
+./up.sh
 ```
